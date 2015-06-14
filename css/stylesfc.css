@@ -1,0 +1,9 @@
+.col-lg-6:first-child img{
+	margin: auto;
+	display: block;
+}
+.col-lg-6:last-child img{
+	margin: auto;
+	height: 280px;
+	display: block;
+}

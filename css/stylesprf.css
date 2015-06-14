@@ -1,0 +1,21 @@
+.text{
+	width: 42%;
+	margin: 10px 50px;
+background: linear-gradient(to bottom, rgba(255,255,255,1) 2%,rgba(255,255,255,1) 3%,rgba(255,255,255,1) 25%,rgba(255,255,255,0) 100%); /* W3C */
+}
+
+.col-lg-6:first-child img{
+	height: 120px;
+	display: block;
+	margin: auto;
+}
+
+.col-lg-6:last-child img{
+	height: 166px;
+	display: block;
+	margin: auto;
+}
+
+.row2{
+	margin: 30px
+}

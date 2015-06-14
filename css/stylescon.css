@@ -1,0 +1,39 @@
+
+.top{
+	background-image: url("../images/orange-leaf-swirl-md.png");
+	background-repeat: repeat-x;
+	height: 200px
+}
+
+h3{
+	color: white;
+}
+
+.col-md-12{
+	padding-top: 30px;
+}
+
+
+.btn-group-justified ul.dropdown-menu li a{
+	line-height: 50px;
+}	
+
+.btn-group ul li a img{
+	margin-right: 10px;
+}
+
+.btn-group ul li a{
+	text-align: center;
+}
+
+.btn-group-justified .btn, .btn-group-justified .btn-group{
+	width: 33.33%;
+}
+
+.text{
+	height: 350px
+}
+
+.text h2{
+	text-align: center;
+}

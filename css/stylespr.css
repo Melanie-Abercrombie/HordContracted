@@ -1,0 +1,188 @@
+.top{
+	padding-top: 50px;
+}
+
+li.open{
+	color: green;
+	font-weight: bolder;
+}
+
+li.closed{
+	color: red;
+}
+
+html, body{
+	margin: 0; padding: 0
+} 
+
+li{
+	list-style-type: none
+}
+
+#date .top {
+	margin-top: 15px;
+}
+
+#date .col-md-7{
+	padding-left: 0
+}
+
+#date h4{
+	display: inline;
+	margin-right: 10px;
+}
+
+#date #container{ 
+	margin: 3em auto 0 3em; 
+	padding-bottom: 3em; \
+	background-color: #fff;
+} 
+
+#date #month{ 
+	float: left;
+	border-collapse: collapse; 
+	margin-left: 2em;
+} 
+
+#date #month th, #date #month td{ 
+	border: 1px solid #000; 
+} 
+
+#date #month thead{ 
+	background-color: #eb9316;
+}
+
+#date #month td{ 
+	width: 7em; 
+	height: 7em; 
+	padding: .2em; 
+	vertical-align: top; 
+	overflow: auto;
+	background-color: #fff;
+} 
+
+#date td .day{ 
+	width: 7em; 
+	height: 6em; 
+	overflow:auto; 
+	margin-top: 0; 
+}
+
+#date #month tbody .weekend{ 
+	background-color: #f0ad4e; 
+}
+
+#date #month tbody .next, #month tbody .previous{ 
+		background-color:#ddd; 
+} 
+
+#date .rtop{ 
+	display: block; 
+	background:#060; 
+} 
+
+#date .rtop *{
+ 	display: block; 
+ 	height: 1px; 
+ 	overflow: hidden; 
+ 	background:#fff; 
+} 
+
+#date .r1{
+ 	margin: 0 0 0 5px
+} 
+
+#date .r2{
+ 	margin: 0 0 0 3px
+} 
+
+#date .r3{
+ 	margin: 0 0 0 2px
+}
+
+#date .r4{
+  	margin: 0 0 0 1px; height: 2px
+}
+
+#date #container h1{
+	  	margin: 0 0 .5em .5em; 
+	  	font: 2em Arial, Helvetica, sans-serif;
+	  	color: #060; 
+}
+
+#date #month th{ 
+  	font: 1em bold Arial, Helvetica, sans-serif; 
+} 
+
+#date p{
+	margin-top: 0; 
+}
+
+/* Weekly Schedule */
+
+#info #container{ 
+	margin: 3em auto 0 3em; 
+	padding-bottom: 3em; \
+	background-color: #fff;
+} 
+
+#info #week{ 
+	float: left;
+	border-collapse: collapse; 
+	margin-left: 2em;
+} 
+
+#info #week th, #info #week td{ 
+	border: 1px solid #000; 
+} 
+
+#info #week thead{ 
+	background-color: #eb9316;
+}
+
+#info #week td{ 
+	width: 10em; 
+	height: 18em;
+	vertical-align: top; 
+	overflow: auto;
+	background-color: #fff;
+} 
+
+#info #week td ul{
+	padding: 0 0 0 10px;
+}
+
+#info .rtop{ 
+	display: block; 
+	background:#060; 
+} 
+
+#info .rtop *{
+ 	display: block; 
+ 	hinfot: 1px; 
+ 	overflow: hidden; 
+ 	background:#fff; 
+} 
+
+#info .r1{
+ 	margin: 0 0 0 5px
+}
+
+#date #container h1{
+	  	margin: 0 0 .5em .5em; 
+	  	font: 2em Arial, Helvetica, sans-serif;
+	  	color: #060; 
+}
+
+#info #week th{ 
+  	font: 1em bold Arial, Helvetica, sans-serif; 
+  	padding-left: 10px;
+} 
+
+#info .col-md-4{
+	margin-right: 30px;
+}
+
+#info .col-md-8{
+	width: 62%;
+}
